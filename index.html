@@ -601,9 +601,8 @@
                 <button onClick={()=>setShowPlaya(p=>!p)} style={{background:"rgba(212,175,55,.1)",border:"1px solid rgba(212,175,55,.35)",borderRadius:10,padding:"12px 24px",color:"#d4af37",fontFamily:"Georgia,serif",fontSize:14,letterSpacing:1,cursor:"pointer",width:"100%"}}>
                   🏌️ The Playa Club {showPlaya?"▲":"▼"}
                 </button>
-                <div style={{fontSize:11,color:"rgba(240,234,214,.3)",fontStyle:"italic",letterSpacing:.5,textAlign:"center",marginTop:5,marginBottom:4}}>A New Excuse Unlike Any Other</div>
+                <div style={{fontSize:11,color:"rgba(240,234,214,.3)",fontStyle:"italic",letterSpacing:.5,textAlign:"center",marginTop:5,marginBottom:4}}>Another Excuse Like All the Others</div>
                 {showPlaya&&<div style={{marginTop:8,background:"rgba(0,0,0,.3)",borderRadius:10,border:"1px solid rgba(212,175,55,.18)",padding:"16px 14px",textAlign:"left"}}>
-                  <div style={{marginBottom:8}}>
                   {Object.entries(allTimeRounds).length===0
                     ? <div style={{color:"rgba(240,234,214,.3)",fontSize:13,fontStyle:"italic",textAlign:"center"}}>No rounds logged yet</div>
                     : Object.entries(allTimeRounds)
